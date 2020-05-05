@@ -1,0 +1,616 @@
+body{
+	background-color:#0c1027;
+	 background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+
+/*Header section-------------------------------------------------------------------*/
+.navlist{
+	display: flex;
+}
+
+.Top-header ul{
+	 font-size: 13px;
+    list-style: none;
+    margin: 0 0 0 -0.8125em;
+    padding-left: 0;
+    margin-left: 25px;
+}
+.navlist li{
+	float: left;
+	display: block;
+	text-align: center;
+	padding:5px 40px; 
+	 position: relative;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.navlist p{
+	  font-family: 'Architects Daughter';
+
+}
+.fav a{
+	padding-left: 50px;
+	font-size: 20px;
+	font-family: 'Baloo Bhaina 2', cursive;
+	color: white;
+	line-height: 80px;
+	text-decoration: none;
+
+
+}
+.music-name{
+	line-height: 1px;
+}
+
+.example{
+	padding-left: 250px;
+	 margin:25px;
+	 max-width:300px;
+	}
+.example input{
+	width: 300px;
+	height: 30px;
+	margin-left: -50px;
+	border-radius: 7px;
+	background-color: #0c1027;
+	color: white;
+}
+.example span{
+	border-radius: 7px;
+	margin-left: -40px;
+}
+.example i{
+	color: white;
+}
+
+h2,h3,h4,p{
+	color: white;
+}
+.navlist li img{
+	position: relative;
+}
+
+.Top-header h3 h4 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+.icon{
+    color: white;
+	font-size: 30px;
+	margin: 25px;
+	bottom: 10px;
+}
+.mypic img{
+	
+	border-radius:50%;
+}
+
+/*Photo Section started-----------------------------------------------------*/
+
+
+.flex-container1 { 
+	display:flex;
+	 width:250px;
+	  height:250px;
+	 margin-left: 150px;
+	}
+
+.flex-container1 div img {
+   width:200px;
+    height:200px; 
+     transition: transform ease-in-out 0.3s;
+
+}
+
+.zoom:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+      }
+#div{
+
+	padding:5px;
+
+}
+
+
+/*Latest release started---------------------------------------------------------*/
+.Release{
+    margin-left: 100px;
+	display: flex;
+	flex-wrap:wrap;
+	width:750px;
+	height: 350px;
+	
+}
+.release-img{
+	margin-left: -100px;
+	width: 100px;
+	height: 100px;
+}
+.release1{
+	margin-top: 40px;
+}
+.release2{
+	margin-left: 150px;
+	margin-top: 40px;
+}
+.release3{
+	margin-left: 125px;
+}
+.release4{
+	margin-left: 150px;
+}
+.release-head{
+	margin-top: -10px;
+	margin-left: 0px;
+}
+.inner-head{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: -80px;
+	margin-left: 20px;
+}
+.content-release{
+	font-size: 15px;
+	margin-top: -15px;
+	margin-left: 20px;
+	color: #696d86;
+	font-family: 'Roboto', sans-serif;
+}
+.song-time{
+  margin-left: 200px;
+  margin-top: -50px;
+  font-size: 12px;
+  color: #696d86;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+.circle{
+	margin-top: -50px;
+	margin-left: 200px;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/*Artist-container started------------------------------------------------------------*/
+
+
+.Artist-container{
+	display:flex;
+	 width:150px;
+	  height:150px;
+	 
+}
+
+.Artist-container div img{
+    width:100px;
+    height:100px; 
+     transition: transform ease-in-out 0.3s;
+     border-radius: 50%;
+     margin-bottom:
+}
+.Popular-Artist{
+	padding-top: 50px;
+	margin-left: 100px;
+	
+	
+}
+#pic{
+	
+	padding: 10px;
+}
+#pic p{
+	padding-left: 18px;
+	margin: 0;
+	width: 100%;
+}
+
+/*Station container started from here------------------------------------------*/
+
+
+.station {
+	 background-color:#101642;
+	 width: 80%;
+	 height: 100px;
+	 margin-top: 15px;
+	 margin-left: 100px;
+}
+.station-container {
+	display: flex;
+	 width:100%;
+	  /*height:150px;*/
+	  align-items: center;
+}
+
+
+.story_shape {
+	margin-left: 45px;
+    width: auto; 
+    height: auto;
+     margin-top: 40px;
+    position: relative; 
+
+}
+
+ .story_img {
+ 	margin: -30px;
+     width:80px;
+    height:80px; 
+    border-radius: 50%;
+     opacity: 0.5;
+    backface-visibility: hidden;
+ }
+ 
+ .story_caption {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    
+    padding-bottom:10px; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-transform: uppercase; 
+    font-size: 0.9rem; 
+    text-align: center;  
+    backface-visibility: hidden; 
+ }
+
+
+/*Mood section start from here-----------------------------------------------*/
+
+.flex-container2{
+	display:flex;
+	
+	 margin-left: 100px;
+}
+.mood div img{
+    width:250px;
+    height: 120px;
+    opacity: 0.6;
+}
+.mood{
+	margin-bottom: -20px;
+	margin-top: 30px;
+}
+.banner {
+	position: relative;
+	
+}
+.banner img{
+	padding-left: 10px;
+}
+.heading{
+	  position: absolute; 
+    top: 40%; 
+    left:50%; 
+    
+    padding-bottom:px; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-transform: uppercase; 
+    font-size: 0.9rem; 
+    text-align: center;  
+    backface-visibility: hidden; 
+}
+
+/*Latest English & Hindi container------------------------------------------------------*/
+
+
+.Latest-English{
+   margin-top: 80px;
+   margin-left: 100px;
+   margin-bottom: -20px;
+	
+}
+.row{
+	display: flex;
+	 
+}
+.row img {
+	width: 100px;
+	min-height:100px;
+
+}
+.img-name{
+	padding: 8px;
+
+}
+.img-name img{
+	position: relative;
+	border-radius:7px;
+	display: block;
+	overflow: hidden;
+	box-shadow: 0 15px 35px #3d2173a1;
+	transition: all ease 0.4
+   }
+.img-name img:hover{
+	box-shadow: none;
+	transform: scale(0.98) translateY(5px);
+	cursor: pointer;
+}
+.latest-container h3{
+	font-size: 25px;
+	margin-bottom:25px;
+	position:relative;
+	
+}
+.img-name h4{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-weight: 700;
+}
+.img-name p{
+	margin-top: -10px;
+	font-size:12px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+/*Footer part------------------------------------------------------------------------*/
+
+
+.music-footer{
+   height: 40px;
+   position: fixed;
+   left:0px;
+   bottom:0%;
+   width: 100%;
+   background-color:#282828;
+  
+   opacity: 0.8;
+   color: white;
+   display: flex;
+   
+}
+.play-image img{
+    width: 50px;
+    height: 48px;
+    padding: 2px;
+    margin-left: 105px;
+    margin-bottom:2px;
+    border-radius: 5px;
+    padding-bottom: 2px;
+
+}
+.heart{
+	margin-top: 5px;
+	margin-left: -40px;
+    cursor: pointer;
+}
+.player{
+	margin-right:60px;
+}
+.backword{
+	margin-right: 60px;
+	opacity: 0.5;
+	}
+.random{
+	margin-right:60px;
+}
+.repeat{
+    margin-right:60px;
+}
+.forword{
+margin-right:60px;
+opacity: 0.5;
+}
+.vidio{
+  margin-right:60px;
+}
+.speker{
+margin-right:60px;
+}
+.mic {
+margin-right:60px;
+}
+.youtube{
+	margin-right:60px;
+}
+.play-icons{
+	margin-top: 5px;
+	display: flex;
+	font-size: 25px;
+	margin-left:100px;
+	cursor: pointer;
+}
+.play-icons i{
+    
+	color: white;
+
+}
+.play-controls{
+	width: 300px;
+	height: 60px;
+	display: inline-flex;
+}
+.controls{
+    width: 300px;
+    height: 75px;
+    display: flex;
+    margin-left: 100px;
+}
+.song-name{
+	width: 150px;
+	height: 50px;
+}
+.song-name h4{
+	margin-top: 0px;
+	margin-left: -90px;
+	font-size: 18px;
+	letter-spacing: 0.6px;
+	font-family: 'Comic Neue', cursive;
+}
+.song-name p{
+	width: 200px;
+	margin-top: -25px;
+	margin-left: -90px;
+	font-size: 13px;
+	font-family: 'Comic Neue', cursive;
+}
+
+/*Footer ends ----------------------------------------------------------------------------*/
+
+main{
+	
+    margin-top: 50px;
+	width: 70%;
+	display: inline-block;
+	/*background-color:#02aab0   #bdc3c7 ;*/
+
+	/*background-color: #091f36 ;*/
+}
+
+/*Asise section start from here------------------------------------------------------------*/
+
+aside{
+
+	width: 280px;
+     height: inherit;
+	display: inline-block;
+
+	vertical-align: top;
+    margin-left: 0px;
+	height: 1800px;
+    background-color:#0c1027;
+}
+
+aside .logo{
+
+	width: 100%;
+     
+	height: 40px;
+   
+   color: #40b29e;
+	text-align: center;
+  
+   font-weight: 50;
+
+	font-size: 18px;
+
+}
+aside h2{
+	 font-family: 'Baloo Paaji 2', cursive;
+font-family: 'Lato', sans-serif;
+}
+
+aside ul{
+
+	list-style: none;
+
+	margin-top: 10px;
+
+	visibility: hidden;
+}
+
+aside ul li{
+
+	width: 100%;
+  
+	margin-top: 30px;
+    
+	
+}
+
+aside ul li a{
+	text-decoration: none;
+/*	line-height: 70px;*/
+
+	font-size: 18px;
+	
+
+	color:white;
+}
+aside input{
+	display: none;
+}
+.logo i{
+	cursor: pointer;
+}
+
+.heartq i{
+	position: absolute;
+	right: 30px;
+	color: white;
+	cursor: pointer;
+}
+.im{
+
+	height: 30px;
+	width: 30px;
+    border-radius: 1px;
+	display: inline-block;
+	color: white;
+	
+}
+.im img{
+	border-radius: 7px;
+}
+.name{
+
+	height: 18px;
+
+	display: inline-block;
+	
+	position: absolute;
+    text-align: center;
+
+	margin-left: 20px;
+
+	color: white;
+
+   font-family: 'Open Sans', sans-serif;
+
+}
+
+.md{
+
+	display: inline-block;
+    margin-top: 25px;
+	margin-left: 22px;
+	color: white;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+[id=que]:checked +ul{
+
+		visibility: visible;
+
+
+}
+
+/*Asise section ends -------------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 1000px)
+{
+	aside{
+	display: none;
+
+	}
+	main{
+		width: 100%;
+	}
+ 
+}
